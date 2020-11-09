@@ -51,6 +51,19 @@ a {
     color: white;
 }
 
+.how-to {
+    color: #585858;
+}
+
+.how-to p {
+    text-align: left;
+}
+
+.steps {
+    text-align: center;
+    color: #585858;
+}
+
 footer {
     background-color: darkgray;
     height: 100px;
@@ -58,6 +71,6 @@ footer {
 
 .footer p {
     text-align: left;
-    padding: 20px;
+    padding: 10px;
     font-size: 12px;
 }
