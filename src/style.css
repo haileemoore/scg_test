@@ -66,10 +66,6 @@ a {
     color: #585858;
 }
 
-.how-to h4 {
-    letter-spacing: 10px;
-}
-
 .how-to p {
     padding: 0px 15px 0px 15px;
     color: #585858;
@@ -78,10 +74,6 @@ a {
 .steps {
     text-align: center;
     color: #585858;
-}
-
-.steps h6 {
-    letter-spacing: 2px;
 }
 
 footer {

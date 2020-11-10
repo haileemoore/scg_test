@@ -1,0 +1,43 @@
+#logo {
+    height: 100px;
+    width: auto;
+}
+
+a {
+   color: black; 
+}
+
+.alert {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+}
+
+#aptName {
+    width: 400px;
+}
+
+#units {
+    width: 100px;
+}
+
+#stAddress {
+    width: 400px;
+}
+
+#city {
+    width: 300px;
+}
+
+#state {
+    width: 200px;
+}
+
+#zip {
+    width: 100px;
+}
