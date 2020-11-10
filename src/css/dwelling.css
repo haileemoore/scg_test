@@ -18,6 +18,11 @@ h4 {
     text-align: center;
 }
 
+.container-sm {
+    display: flex;
+    flex-flow: row wrap;
+} 
+
 #aptName {
     width: 400px;
 }
@@ -40,4 +45,10 @@ h4 {
 
 #zip {
     width: 100px;
+}
+
+#buildings-img {
+    height: 600px;
+    width: 600px;
+    padding: 20px 80px 40px;
 }
