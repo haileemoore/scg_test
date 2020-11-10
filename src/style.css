@@ -14,6 +14,13 @@ a {
    color: black; 
 }
 
+.alert {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+    font-weight: bold;
+}
+
 .container-sm {
     position: relative;
     text-align: center;
@@ -45,18 +52,27 @@ a {
 
 .btn-success {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.overview {
+    padding: 20px;
 }
 
 .how-to {
     color: #585858;
 }
 
+.how-to h4 {
+    letter-spacing: 10px;
+}
+
 .how-to p {
-    text-align: left;
+    padding: 0px 15px 0px 15px;
+    color: #585858;
 }
 
 .steps {
@@ -64,9 +80,13 @@ a {
     color: #585858;
 }
 
+.steps h6 {
+    letter-spacing: 2px;
+}
+
 footer {
     background-color: darkgray;
-    height: 100px;
+    height: 70px;
 }
 
 .footer p {
