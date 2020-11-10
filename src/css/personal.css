@@ -1,0 +1,51 @@
+#logo {
+    height: 100px;
+    width: auto;
+}
+
+a {
+   color: black; 
+}
+
+.alert {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+    width: 1000px;
+    padding: 20px;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+#email {
+    width: 300px;
+}
+
+#stAddress {
+    width: 300px;
+}
+
+#state {
+    width: 80px;
+}
+
+#zip {
+    width: 100px;
+}
+
+#submit {
+    height: 40px;
+    align-self: center;
+}
