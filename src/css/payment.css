@@ -1,0 +1,27 @@
+#logo {
+    height: 100px;
+    width: auto;
+}
+
+a {
+   color: black; 
+}
+
+.alert {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+}
+
+.verification {
+    padding: 20px;
+}
+
+#submit {
+    margin: 10px;
+}
