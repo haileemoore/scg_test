@@ -27,42 +27,47 @@
         </div>
     <!-- end nav -->
     <h4>Apartment Information</h4>
-    <div class="container-sm">
-        <div class="form">
-            <form action="POST">
-                <div class="form-group">
-                    <label for="aptName">Apartment Name</label>
-                    <input type="text" class="form-control" id="aptName">
+        <div class="container-sm">
+            <div class="form">
+                <form action="POST">
+                    <div class="form-group">
+                        <label for="aptName">Apartment Name</label>
+                        <input type="text" class="form-control" id="aptName">
+                    </div>
+                    <div class="form-group">
+                        <label for="units">Number of Units</label>
+                        <input type="text" class="form-control" id="units">
+                    </div>
+                    <div class="form-group">
+                        <label for="stAdress">Street Address</label>
+                        <input type="text" class="form-control" id="stAddress">
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" class="form-control" id="city">
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State</label>
+                        <input type="text" class="form-control" id="state">
+                    </div>
+                    <div class="form-group">
+                        <label for="zip">Zipcode</label>
+                        <input type="text" class="form-control" id="zip">
+                    </div>
+                </form>
+                <div class="verification">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="verify">
+                        <label class="form-check-label" for="verify">
+                            I do not have a Spectrum Representative.
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-info float-left" id="submit">Submit</button>
                 </div>
-                <div class="form-group">
-                    <label for="units">Number of Units</label>
-                    <input type="text" class="form-control" id="units">
-                </div>
-                <div class="form-group">
-                    <label for="stAdress">Street Address</label>
-                    <input type="text" class="form-control" id="stAddress">
-                </div>
-                <div class="form-group">
-                    <label for="city">City</label>
-                    <input type="text" class="form-control" id="city">
-                </div>
-                <div class="form-group">
-                    <label for="state">State</label>
-                    <input type="text" class="form-control" id="state">
-                </div>
-                <div class="form-group">
-                    <label for="zip">Zipcode</label>
-                    <input type="text" class="form-control" id="zip">
-                </div>
-                <button type="submit" class="btn btn-info float-right">Submit</button>
-            </form>
+            </div>
+            <!-- end form -->
         </div>
-        <!-- end form -->
-        <img class="img-fluid float-right" id="buildings-img"
-        src="/Users/haileedoyle/Desktop/ACT-CEI-SCG/Dev/sourcepoint/scg_test/assets/hana-kim-slRc0JDsMdk-unsplash.jpg" 
-        alt="sourcepoint">
-    </div>
-    <!-- end container-sm -->
+        <!-- end container-sm -->
     </div>
     <!-- end container -->
 </body>
